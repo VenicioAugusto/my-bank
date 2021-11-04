@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank", "MyBank.csproj", "{FC1A4CB1-8D96-47C3-B8DE-F2424264653C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankLibrary", "..\BankLibrary\BankLibrary.csproj", "{E719157A-1DD4-495A-8667-0E1E9AFCD5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingTests", "..\BankingTests\BankingTests.csproj", "{2F9F052A-7419-48AA-A127-F62FC4B8368F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC1A4CB1-8D96-47C3-B8DE-F2424264653C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1A4CB1-8D96-47C3-B8DE-F2424264653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1A4CB1-8D96-47C3-B8DE-F2424264653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1A4CB1-8D96-47C3-B8DE-F2424264653C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E719157A-1DD4-495A-8667-0E1E9AFCD5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E719157A-1DD4-495A-8667-0E1E9AFCD5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E719157A-1DD4-495A-8667-0E1E9AFCD5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E719157A-1DD4-495A-8667-0E1E9AFCD5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F9F052A-7419-48AA-A127-F62FC4B8368F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9F052A-7419-48AA-A127-F62FC4B8368F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9F052A-7419-48AA-A127-F62FC4B8368F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9F052A-7419-48AA-A127-F62FC4B8368F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70B137E0-4C20-46AB-B9C0-A57C0F461EEC}
+	EndGlobalSection
+EndGlobal
